@@ -1,0 +1,38 @@
+﻿Build started 8/25/2022 6:28:04 PM.
+Logging verbosity is set to: Normal.     1>Project "C:\Users\Ardon\OneDrive\Desktop\projects\Game Engine 1.01\Game Engine 1.01.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\Game Engine 1.01.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\VS\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\CL.exe /c /I"C:\SFML-2.5.1-windows-vc15-64-bit\SFML-2.5.1\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Grid.cpp
+         Grid.cpp
+     1>C:\Users\Ardon\OneDrive\Desktop\projects\Game Engine 1.01\Grid.cpp(49,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\Ardon\OneDrive\Desktop\projects\Game Engine 1.01\Grid.cpp(49,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+       Link:
+         E:\VS\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ardon\OneDrive\Desktop\projects\Game Engine 1.01\x64\Debug\Game Engine 1.01.exe" /INCREMENTAL /ILK:"x64\Debug\Game Engine 1.01.ilk" /NOLOGO /LIBPATH:"C:\SFML-2.5.1-windows-vc15-64-bit\SFML-2.5.1\lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ardon\OneDrive\Desktop\projects\Game Engine 1.01\x64\Debug\Game Engine 1.01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ardon\OneDrive\Desktop\projects\Game Engine 1.01\x64\Debug\Game Engine 1.01.lib" /MACHINE:X64 x64\Debug\AirCraft.obj
+         x64\Debug\Entity.obj
+         x64\Debug\Game.obj
+         x64\Debug\Game.obj
+         x64\Debug\Grid.obj
+         x64\Debug\Main.obj
+         x64\Debug\ResourceHolder.obj
+         x64\Debug\SceneNode.obj
+         x64\Debug\SpriteNode.obj
+         x64\Debug\Tile.obj
+         x64\Debug\World.obj
+         Game Engine 1.01.vcxproj -> C:\Users\Ardon\OneDrive\Desktop\projects\Game Engine 1.01\x64\Debug\Game Engine 1.01.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\Game Engine 1.01.tlog\unsuccessfulbuild".
+         Touching "x64\Debug\Game Engine 1.01.tlog\Game Engine 1.01.lastbuildstate".
+     1>Done Building Project "C:\Users\Ardon\OneDrive\Desktop\projects\Game Engine 1.01\Game Engine 1.01.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\Ardon\OneDrive\Desktop\projects\Game Engine 1.01\Game Engine 1.01.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         C:\Users\Ardon\OneDrive\Desktop\projects\Game Engine 1.01\Grid.cpp(49,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         C:\Users\Ardon\OneDrive\Desktop\projects\Game Engine 1.01\Grid.cpp(49,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
